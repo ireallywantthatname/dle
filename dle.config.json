@@ -1,0 +1,78 @@
+{
+  "r2Bucket": "dle-media",
+  "modules": [
+    {
+      "code": "PUSL3131",
+      "title": "Security Operations & Incident Management",
+      "semester": "26/001/SEM1",
+      "sourceDir": "/home/irwtn/Projects/PUSL3131",
+      "dleUrl": "https://dle.plymouth.ac.uk/course/view.php?id=88992",
+      "excludeDirs": [],
+      "excludeFiles": ["links.md"],
+      "quarantineFiles": ["day-01/lab-1/data.tar.gz"],
+      "extractZips": [
+        {
+          "path": "day-03/lab-3/rules and logs-snort3.zip",
+          "promotePdfs": false
+        }
+      ],
+      "sectionOrder": [
+        { "dir": "welcome", "title": "Welcome" },
+        { "dir": "assessments", "title": "Assessments" },
+        { "dir": "day-01", "title": "Day 1" },
+        { "dir": "day-02", "title": "Day 2" },
+        { "dir": "day-03", "title": "Day 3" },
+        { "dir": "day-04", "title": "Day 4" },
+        { "dir": "day-05", "title": "Day 5" },
+        { "dir": "day-06", "title": "Day 6" },
+        { "dir": "day-07", "title": "Day 7" },
+        { "dir": "day-08", "title": "Day 8" },
+        { "dir": "further-resources", "title": "Further Resources" }
+      ]
+    },
+    {
+      "code": "PUSL3132",
+      "title": "Ethical Hacking",
+      "semester": "26/001/SEM1",
+      "sourceDir": "/home/irwtn/Projects/PUSL3132",
+      "dleUrl": "https://dle.plymouth.ac.uk/course/view.php?id=88993",
+      "excludeDirs": ["downloads", "images", "openvas"],
+      "excludeFiles": [
+        "links.md",
+        "report.docx",
+        "report.pdf",
+        "report_final.md",
+        "PUSL3132 Penetration testing report - Group 20.pdf"
+      ],
+      "quarantineFiles": [],
+      "extractZips": [],
+      "sectionOrder": [
+        { "dir": "docs", "title": "Module & Assessment" },
+        { "dir": "slides", "title": "Lectures" },
+        { "dir": "practicals", "title": "Practical Sessions" }
+      ]
+    },
+    {
+      "code": "PUSL3133",
+      "title": "Digital Forensics & Malware Analysis",
+      "semester": "26/001/SEM1",
+      "sourceDir": "/home/irwtn/Projects/PUSL3133",
+      "dleUrl": "https://dle.plymouth.ac.uk/course/view.php?id=88994",
+      "excludeDirs": [],
+      "excludeFiles": ["links.md"],
+      "quarantineFiles": [],
+      "extractZips": [
+        {
+          "path": "practicals/carving/Practical 01 - Carving.zip",
+          "promotePdfs": true
+        }
+      ],
+      "sectionOrder": [
+        { "dir": "general", "title": "General" },
+        { "dir": "slides", "title": "Slides" },
+        { "dir": "practicals", "title": "Practicals" },
+        { "dir": "coursework", "title": "Coursework" }
+      ]
+    }
+  ]
+}

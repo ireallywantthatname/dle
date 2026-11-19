@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "dle",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-19",
+  "routes": [
+    {
+      "pattern": "dle.akashdesilva.dev",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/files/*"]
+  },
+  "r2_buckets": [
+    {
+      "binding": "DLE_BUCKET",
+      "bucket_name": "dle-media"
+    }
+  ]
+}
